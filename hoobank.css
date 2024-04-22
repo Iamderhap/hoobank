@@ -1,0 +1,689 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+main{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+}
+body{
+    background-color:#00040F;
+    color: white;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+.nav-div{
+    width: 80%;
+    display: flex;
+    gap: 50%;
+}
+span{
+    color: #5CE1E6;
+}
+.hoobook{
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 600px;
+}
+li{
+    list-style: none;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 16px;
+    gap: 20px;
+}
+li:hover{
+    cursor: pointer;
+    color: #5CE1E6;
+    transition: 0.5s ease-in-out;
+}
+ul {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.sect1{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.first-sect{
+    display: flex;
+    padding-top: 20px;
+}
+.scan{
+    display: flex;
+    align-items: center;
+}
+.get-started{
+    display: flex;
+    gap: 50px;
+}
+.get-startedp{
+    border: 2px solid ;
+    border-radius: 50px;
+    display: flex;
+    text-align: center;
+    width: 6%;
+    font-size: medium;
+    height: 55px;
+    color: #DEF9FA;
+}
+.get-startedp:hover{
+    border: 2px solid blue;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+button{
+    border: none;
+}
+.our-team{
+    width: 37%;
+}
+.robot img{
+   height: 50vh;
+}
+.sect2-content{
+    display: flex;
+     gap: 25%;
+     justify-content: center;
+     align-items: center;
+}
+.first-sect{
+    display: flex;
+    flex-direction: column;
+}
+.scan{
+    display: flex;
+}
+.sect3{
+    display: flex;
+    justify-content: center;
+    gap: 34%;
+}
+.sect3-text{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.sect3-text button{
+    width: 25%;
+    padding: 10px 5px;
+    background-color: #9DEDF0;
+    border-radius: 5px;
+}
+.sect3-text h3{
+    width: 11vw;
+}
+.sect3-text p{
+    width: 24.2vw;
+}
+.star{
+    display: flex;
+    gap: 20px;
+}
+.star-text{
+   width: 20vw; 
+}
+.shield{
+    display: flex;
+    gap: 20px;
+    background: linear-gradient(#ffffffba,#14101d75);
+}
+.shield-text{
+    width: 19vw;
+}
+.send{
+    display: flex;
+    gap: 20px;
+}
+.send-text{
+     width: 15vw;
+}
+.sect3-below{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.sect4{
+    display: flex;
+    justify-content: center;
+}
+.sect4-content{
+    display: flex;
+    gap: 30vw;
+}
+.bill-image{
+    width: 30vw;
+}
+.sect4-content h3{
+    width: 10vw;
+}
+.sect4-content p{
+    width: 20vw;
+}
+.sect4-text{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.sect5{
+    display: flex;
+    justify-content: center;
+    gap: 20%;
+}
+.sect5 img{
+    width: 40%;
+}
+.sect5-content h3{
+     width: 11vw;
+}
+.sect5-content p{
+    width: 20vw;
+}
+.sect5-content{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.sect5 button{
+    width: 25%;
+    padding: 10px 5px;
+    background-color: #9DEDF0;
+    border-radius: 5px;
+}
+.sect6{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+.sect6-top{
+    display: flex;
+    justify-content: center;
+    gap: 50%;
+}
+.sect6-top h3{
+    width: 10;
+}
+.sect6-top p{
+    width: 19vw;
+}
+.people{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+.Herman{
+     display: flex;
+     gap: 15px;
+}
+.Herman img{
+    height: 7vh;
+}
+.person1 p{
+   width: 11vw;
+}
+.person1{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    width: 20%;
+    cursor: pointer;
+}
+.person1:hover{
+    background: linear-gradient(#ffffffba,#14101d75);
+    border-radius: 10px;
+}
+.quotes1{
+    height: 5vh;
+}
+.Steve{
+    display: flex;
+    gap: 15px;
+}
+.Steve img{
+    height: 7vh;
+}
+.person2{
+    width: 20%;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 20px;
+    cursor: pointer;
+}
+.person2:hover{
+    background: linear-gradient(#ffffffba,#14101d75);
+    border-radius: 10px;
+}
+.person2 p{
+    width: 12vw;
+}
+.quotes2{
+    height: 5vh;
+}
+.Kenn{
+    display: flex;
+    gap: 15px;
+}
+.Kenn img{
+    height: 7vh;
+     gap: 15px;
+}
+.person3{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 20px;
+    width: 20%;
+    cursor: pointer;
+}
+.person3:hover{
+    background: linear-gradient(#ffffffba,#14101d75);
+    border-radius: 10px;
+}
+.person3 p{
+    width: 12vw;
+}
+.quotes3{
+    height: 5vh;
+}
+.images{
+   display: flex;
+     padding-left: 50px;
+    align-items: center;
+    justify-content: center;
+    height: 10vw;
+    gap: 15%;
+}
+.images img{
+    width: 10%;
+}
+.sect7{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50%;
+    border: 1px solid linear-gradient(#ffffffba,#14101d75);
+    width: 90vw;
+    padding: 30px 20px;
+}
+.sect7-text p{
+    width: 20vw;
+}
+.sect7 button{
+    padding: 10px;
+    background-color: #9DEDF0;
+    border-radius: 5px;
+}
+.sect7-container{
+    width: 40vw;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    gap: 12%;
+}
+.img-logo{
+    width: 14vw;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.Links{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.Community{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.Partner{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+footer{
+    gap: 15%;
+}
+.footer-img{
+    display: flex;
+    gap: 40%;
+    justify-content: center;
+}
+.footer-img p{
+     width: 30vw;
+}
+.logo2{
+    display: flex;
+    gap: 20px;
+}
+button:hover{
+    cursor: pointer;
+    transition: .2s ease-in-out;
+    background: linear-gradient(157.81deg, #DEF9FA -43.27%, #BEF3F5 -21.24%, #9DEDF0 12.19%, #7DE7EB 29.82%, #5CE1E6 51.94%, #33BBCF 90.29%);
+}
+@media screen and (max-width:950px){
+    .nav-div{
+        gap: 0%;
+        width: 80%;
+    }
+    main{
+        gap: 0px;
+    }
+    .image{
+      width: 20px;
+    }
+    .sect1{
+        flex-direction: column;
+        gap: 0px;
+    }
+    .firstul{
+        display: none;
+    }
+    .first-sect{
+        padding-left: 90px;
+        width: 60%;
+    }
+    .scan img{
+        height: 10vh;
+    }
+    .scan p{
+        width: 100vw;
+    }
+    .get-started{
+        gap: 0px;
+        width: 50vw;
+        flex-direction: column;
+    }
+    .our-team{
+         width: 150%;
+    }
+    .get-started{
+        gap: 0;
+    }
+    .get-started h1{
+        width: 50vw;
+    }
+    .get-startedp{
+        justify-content: center;
+        width: 30vw;
+        align-items: center;
+    }
+    .sect1{
+        padding-right: 5px;
+    }
+    .robot img{
+        width: 70vw;
+    }
+    .robot{
+        display: flex;
+        justify-content: center;
+    }
+    .sect2{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+    }
+    .sect2-content{
+        gap: 5px;
+        padding-right: 40px;
+        align-items: center;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .sect3{
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+    .sect3-below{
+        padding-right: 120px;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+    .sect3-text p{
+        width: 57vw;
+        display: flex;
+        justify-content: center;
+    }
+    .sect3-text h3{
+        width: 50vw;
+    }
+    .sect3-text button{
+        width: 40%;
+        /* align-items: center; */
+        justify-content: center;
+    }
+    .bill-image{
+        height: 50vw;
+        align-items: center;
+    }
+    .sect4-text h3{
+        width: 40vw;
+    }
+    .star-text p{
+        width: 40vw;
+    }
+    .star{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 7px;
+    }
+    .shield{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 7px;
+        width: 70vw;
+        background: none;
+    }
+    .shield-text p{
+        width: 50vw;
+    }
+    .shield-text h4{
+        width: 50vw;
+    }
+    .send{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 7px; 
+    }
+    .send-text h4{
+        width: 50vw;
+    }
+    .send-text p{
+        width: 50vw;
+    }
+    .sect4{
+        justify-content: center;
+        align-items: center;
+    }
+    .sect4-content{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 0;
+    }
+    .sect4-text h3{
+        width: 50vw;
+    }
+    .sect4-text p{
+        width: 50vw;
+    }
+    .bill-image{
+        width: 80vw;
+    }
+    .sect4-text{
+        justify-content: center;
+        align-items: center;
+        gap: 7px;
+    }
+    .sect4-text img{
+        width: 100%;
+       display: flex;
+       justify-content: center;
+       gap: 5px;
+    }
+    .sect5{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .sect5-content h3{
+        width: 40vw;
+    }
+    .sect5-content p{
+        width: 50vw;
+    }
+    .sect5 button{
+         width: 50%;
+    }
+    .sect5 img{
+        width: 90vw;
+    }
+    .sect6-top{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .sect6-top h3{
+        width: 50vw;
+    }
+    .sect6-top p{
+        width: 50vw;
+    }
+    .people{
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    .person1{
+    flex-direction: column;
+    gap: 5px;
+    justify-content: center;
+    width: 50vw;
+    }
+    .person1 p{
+        width: 50vw;
+    }
+    .Herman {
+        gap: 10px;
+    }
+    .Herman img{
+        height: 7vh;
+    }
+    .quotes1{
+        align-items: flex-start;
+    }
+    .person2{
+        flex-direction: column;
+        gap: 5px;
+        justify-content: center;
+        width: 50vw; 
+    }
+    .person2 p{
+        width: 50vw;
+    }
+    .Steve{
+        gap: 10px;
+    }
+    .Steve img{
+        height: 7vh;
+    }
+    .person3{
+        flex-direction: column;
+        gap: 5px;
+        justify-content: center;
+        width: 50vw; 
+    }
+    .person3 p{
+        width: 50vw;
+    }
+    .Kenn{
+        gap: 10px;
+    }
+    .Kenn img{
+        height: 7vh;
+    }
+    .images img{
+        width: 19vw;
+    }
+    .images{
+        gap: 10px;
+        width: 80%;
+    }
+    .sect7{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+    }
+    .sect7-text h3{
+        width: 50vw;
+    }
+    .sect7-text p{
+        width: 50vw;
+    }
+    footer{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+    }
+    .img-logo{
+        justify-content: center;
+        align-items: center;
+    }
+    .img-logo p{
+        width: 50vw;
+    }
+    .img-logo img{
+        width: 50vw;
+    }
+    .Links{
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+    }
+    .Community{
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+    }
+    .Partner{
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+    }
+    .footer-img{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+    .footer-img p{
+        width: 50vw;
+    }
+    .logo2{
+        align-items: center;
+        justify-content: center;
+    }
+    .footer-img p{
+        width: 50vw;
+    }
+}
