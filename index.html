@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./hoobank.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <main>
@@ -20,7 +21,17 @@
              <li>Solution</li>
            </ul>
           </div>
+           <button onclick="btnToggle()"class="btn">=</button>
          </nav>
+
+         <ul class="mobile-list">
+          <i class="fas fa-xmark" onclick="btnToggle()"></i>
+           <li>Home</li>
+           <li>About Us</li>
+           <li>Features</li>
+           <li>Solution</li>
+        </ul> 
+
          <section class="sect1">
             <div class="first-sect">
               <div class="scan">
@@ -207,7 +218,7 @@
           <div class="footer-img">
             <div>
               <p>Copyright
-                2021 HooBank. All Rights Reserved.
+                2024 HooBank || All Rights Reserved. <br> Developed with &#9829; by Happiness
               </p>
             </div>
             <div class="logo2"> 
@@ -219,5 +230,14 @@
           </div>
         </section>
     </main>
+    <script>
+       function btnToggle(){
+        const mobileList = document.querySelector(".mobile-list")
+        console.log(mobileList)
+        mobileList.classList.toggle("mobile-list-shown")
+      }
+      
+
+    </script>
 </body>
 </html>
